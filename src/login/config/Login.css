@@ -1,0 +1,78 @@
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.emailinput {
+  border: 2px solid #1a202c;
+  padding: 8px;
+  border-radius: 5px;
+  min-width: 64px;
+  background: transparent;
+  transition: all 0.1s ease-in;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.pwinput {
+  border: 2px solid #1a202c;
+  border-radius: 5px;
+  padding: 8px;
+  min-width: 64px;
+  width: 100%;
+  font-size: 20px;
+  background: transparent;
+  transition: all 0.1s ease-in;
+  margin: 15px;
+}
+
+.loginbutton {
+  cursor: pointer;
+  border: 2px solid #1a202c;
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(209, 244, 255);
+  transition: all 0.1s ease-in;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.loginbutton:hover {
+  background: #1a202c;
+  color: #ffffff;
+}
+
+.signupbutton {
+  cursor: pointer;
+  border: 2px solid #1a202c;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  font-size: 20px;
+  background: rgb(209, 244, 255);
+  transition: all 0.1s ease-in;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.signupbutton:hover {
+  background: #1a202c;
+  color: #ffffff;
+}

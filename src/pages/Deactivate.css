@@ -1,0 +1,29 @@
+.Yesbutton {
+  cursor: pointer;
+  border: 2px solid #1a202c;
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(209, 244, 255);
+  transition: all 0.1s ease-in;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.Nobutton {
+  cursor: pointer;
+  border: 2px solid #1a202c;
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(209, 244, 255);
+  transition: all 0.1s ease-in;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+  font-size: 20px;
+  margin: 15px;
+}

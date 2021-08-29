@@ -1,0 +1,79 @@
+{
+  "name": "treact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/user-event": "^7.1.2",
+    "@use-it/interval": "^1.0.0",
+    "@zoomus/websdk": "^1.9.1",
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "feather-icons": "^4.26.0",
+    "firebase": "^8.3.1",
+    "firebaseui": "^4.8.0",
+    "framer-motion": "^1.10.2",
+    "fuse": "^0.4.0",
+    "fuse.js": "^6.4.6",
+    "moment": "^2.29.1",
+    "multiselect-react-dropdown": "^1.6.11",
+    "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.13.1",
+    "react-dropdown": "^1.9.2",
+    "react-icons": "^4.2.0",
+    "react-loading": "^2.0.3",
+    "react-modal": "^3.11.2",
+    "react-notification-center-component": "^1.0.9",
+    "react-responsive-modal": "^6.0.1",
+    "react-rnd": "^10.1.9",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-slick": "^0.25.2",
+    "react-sound": "^1.2.0",
+    "react-splash": "^0.1.0",
+    "react-test-renderer": "^17.0.2",
+    "react-toastify": "^7.0.3",
+    "react-video-js-player": "^1.1.1",
+    "react-welcome-page": "^0.2.1",
+    "reactjs-popup": "^2.0.4",
+    "reactstrap": "^8.9.0",
+    "slick-carousel": "^1.8.1",
+    "splashr": "^0.3.0",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "^1.2.0",
+    "twin.macro": "^1.0.0-alpha.7",
+    "uniqid": "^5.3.0",
+    "use-in-view": "^1.0.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.5",
+    "babel-plugin-styled-components": "^1.12.0",
+    "faker": "^5.5.1",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "puppeteer": "^8.0.0"
+  }
+}

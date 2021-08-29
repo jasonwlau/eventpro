@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+h1 {
+  text-align: center;
+  color: #9D2235;
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px;
+  font-size: xx-large;
+}
+
+#SearchContainer {
+  padding-top: 10%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-group {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.darkButton {
+  background: darkslateblue;
+  color: powderblue;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+}
+.lightButton {
+  background: powderblue;
+  color: darkslateblue;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.lightButton0 {
+  background: powderblue;
+  color: darkslateblue;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.lightButton1 {
+  background: powderblue;
+  color: darkslateblue;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.lightButton:active {
+  background: darkslateblue;
+  color: powderblue;
+}
+
+.Search {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+.SearchButton {
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+  border-bottom: darkslateblue;
+}
+
+.SearchSpan {
+  width: 15%;
+  border: 1px solid powderblue;
+  padding-left: 18px;
+  color:darkslateblue;
+  background: powderblue;
+  border-radius: 0 5px 5px 0;
+  font-size: 20px;
+}
+
+.SearchSpan:hover {
+  color: white;
+  background: #9D2235;
+}
+
+.SearchSpan:active {
+  color: #9D2235;
+  background: powderblue;
+}
+
+.SearchInput {
+  width: 85%;
+  border: 3px solid powderblue;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.ResultWrapper {
+  flex: 0 1 150px;
+  margin: 12px;
+  overflow: hidden;
+  padding: 16px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  min-width: 150px;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.img {
+  height: 100px;
+  border-radius: 4px;
+}
+
+.ResImg {
+  width: 100%;
+  float: left;
+}
+
+.ResInfo {
+  width: 70%;
+  float: left;
+  margin-left: 4px;
+}
+
+.InfoTitle {
+  font-size: 20px;
+}
+
+.InfoDescr {
+  font-size: 14px;
+  float: left;
+}
+
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #fefefe;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+ height:30px;
+ top:100px;
+ position: absolute;
+ right: 80px;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
