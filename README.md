@@ -1,4 +1,4 @@
-# CS310Project
+# Event Pro
 
 There's another readme inside the treact file for how to run, if on WIndows and it keeps breaking, 
 run 
