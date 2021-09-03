@@ -1,11 +1,6 @@
 # Event Pro
 
-There's another readme inside the treact file for how to run, if on WIndows and it keeps breaking, 
-run 
-### `npm install styled-components --save`
-### `npm install --save-dev babel-plugin-styled-components`
-
-Otherwise, change into treact directory, then src, and then
+To run 
 ### `npm install`
 ### `npm start`
 
